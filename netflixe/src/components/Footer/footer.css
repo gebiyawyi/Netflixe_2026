@@ -1,0 +1,13 @@
+.footer_outer_container{
+    display: flex;
+    justify-content:center;
+    color: white;
+}
+.footer_inner_container{
+  width: 60%;  
+}
+.footer_data{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
