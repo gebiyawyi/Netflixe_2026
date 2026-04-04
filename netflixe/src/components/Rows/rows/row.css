@@ -1,0 +1,46 @@
+.row {
+  /* margin-left: 20px; */
+  color: white;
+}
+
+.row h1 {
+  font-size: 22px;
+  margin-bottom:10px;
+}
+
+/* Container for posters */
+.row_posters {
+    display: flex;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  padding:0 20px;
+}
+
+
+.row_posters::-webkit-scrollbar {
+  display: none;
+}
+
+/* Poster image */
+.row_poster {
+    
+  width:250vh;
+  height:250vh;         
+  object-fit: cover;     
+  margin-right: 10px;
+  border-radius: 6px;
+  transition: transform 0.3s ease;
+}
+
+.row_poster:hover {
+  transform: scale(1.1);
+}
+/* Large posters (Netflix Originals) */
+.row_posterLarge {
+  max-height: 450px;
+}
+
+/* Bigger zoom for large posters */
+.row_posterLarge:hover {
+  transform: scale(1.1);
+}
