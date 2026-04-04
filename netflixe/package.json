@@ -1,6 +1,7 @@
 {
-  "homepage": "https://github.com/gebiyawyi/Netflixe_2026/netflixe",
+  "homepage": "https://gebiyawyi.github.io/Netflixe_2026",
   "name": "netflixe",
+
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -16,13 +17,14 @@
     "movie-trailer": "^3.2.2",
     "react": "^19.2.4",
     "react-dom": "^19.2.4",
+    "react-router-dom": "^7.14.0",
     "react-scripts": "5.0.1",
     "react-youtube": "^10.1.0",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
-     "predeploy": "npm run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
