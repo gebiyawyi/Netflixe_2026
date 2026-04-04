@@ -1,6 +1,5 @@
 import React from 'react'
 import "./footer.css";
-import SearchIcon from "@mui/icons-material/Search";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import YoutubeIcon from "@mui/icons-material/YouTube";
