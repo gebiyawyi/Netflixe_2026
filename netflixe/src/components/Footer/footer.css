@@ -1,13 +1,40 @@
-.footer_outer_container{
-    display: flex;
-    justify-content:center;
-    color: white;
+.footer_outer_container {
+  display: flex;
+  justify-content: center;
+  color: white;
+  padding: 30px 0;
 }
-.footer_inner_container{
-  width: 60%;  
+
+.footer_inner_container {
+  width: 60%;
 }
-.footer_data{
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
+
+.footer_icon {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.footer_data {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.footer_data li {
+  margin-bottom: 10px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+/* 🔥 RESPONSIVE */
+@media (max-width: 768px) {
+  .footer_inner_container {
+    width: 90%;
+  }
+
+  .footer_data {
+    flex-direction: column;
+    gap: 20px;
+  }
 }
