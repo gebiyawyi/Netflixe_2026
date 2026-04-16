@@ -1,6 +1,6 @@
 .banner {
   width: 100%;
-  height: 500px; /* set height to see background */
+  height: 500px;
   position: relative;
   color: white;
   display: flex;
